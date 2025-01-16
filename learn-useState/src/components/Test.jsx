@@ -17,6 +17,7 @@ function Test(){
 
     return(
         <>
+            <h2>Testing React JS</h2>
             <p>Counter: {count}</p>
             <button onClick={handleClick}>Increment</button>
         </>
