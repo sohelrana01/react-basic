@@ -51,7 +51,7 @@ function StateWithObjectForm(){
                 />
             </label>
 
-            <p>`Hello {person.firstName} {person.lastName} {person.email}`</p>
+            <p>Hello {person.firstName} {person.lastName} {person.email}</p>
         </>
     )
 }
