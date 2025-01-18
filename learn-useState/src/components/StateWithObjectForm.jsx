@@ -7,24 +7,31 @@ function StateWithObjectForm(){
         email: "sohelrana@gmail.com"
     });
 
-    function handleFirstNameChange(e){
-        setPerson({
-            ...person,
-            firstName: e.target.value
-        });
-    }
+    // function handleFirstNameChange(e){
+    //     setPerson({
+    //         ...person,
+    //         firstName: e.target.value
+    //     });
+    // }
 
-    function handleLastNameChange(e){
-        setPerson({
-            ...person,
-            lastName: e.target.value
-        });
-    }
+    // function handleLastNameChange(e){
+    //     setPerson({
+    //         ...person,
+    //         lastName: e.target.value
+    //     });
+    // }
 
-    function handleEmailChange(e){
+    // function handleEmailChange(e){
+    //     setPerson({
+    //         ...person,
+    //         email: e.target.value
+    //     });
+    // }
+
+    function handleChange(e){
         setPerson({
             ...person,
-            email: e.target.value
+            [e.target.name]: e.target.value
         });
     }
 
@@ -32,22 +39,28 @@ function StateWithObjectForm(){
         <>
             <label>
                 First Name: <br />
-                <input value={person.firstName}
-                onChange={handleFirstNameChange}
+                <input 
+                name="firstName"
+                value={person.firstName}
+                onChange={handleChange}
                 />
             </label>
             <br />
             <label>
                 Last Name: <br />
-                <input value={person.lastName}
-                onChange={handleLastNameChange}
+                <input 
+                name="lastName"
+                value={person.lastName}
+                onChange={handleChange}
                 />
             </label>
             <br />
             <label>
                 Email: <br />
-                <input value={person.email}
-                onChange={handleEmailChange}
+                <input 
+                name="email"
+                value={person.email}
+                onChange={handleChange}
                 />
             </label>
 

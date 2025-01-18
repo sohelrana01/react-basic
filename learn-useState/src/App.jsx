@@ -7,7 +7,9 @@
 // import StateWithObject from "./components/StateWithObject"
 // import PassingCounter from "./components/PassingUpdaterfn"
 
-import StateWithObjectForm from "./components/StateWithObjectForm"
+import StateWithObjectFormNested from "./components/StateWithObjectFormNested"
+
+// import StateWithObjectForm from "./components/StateWithObjectForm"
 
 function App() {
 
@@ -24,7 +26,9 @@ function App() {
       {/* < Buywithcomplete /> */}
       {/* < PassingCounter /> */}
       {/* < StateWithObject /> */}
-      < StateWithObjectForm />
+      {/* < StateWithObjectForm /> */}
+
+      <StateWithObjectFormNested />
     </>
   )
 }
