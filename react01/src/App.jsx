@@ -9,8 +9,11 @@
 // import TodoList from "./components/TodoList"
 // import TodoList2 from "./components/TodoList2"
 // import TodoListUrl from "./components/TodoListUrl"
+// import PackingList2 from "./components/conditionalRendering/PackingList2"
+// import DrinkListWithIf from "./components/conditionalRendering/DrinkListWithIf"
+// import DrinkList from "./components/conditionalRendering/DrinkList"
 
-import PackingList2 from "./components/conditionalRendering/PackingList2"
+import DrinkListWithObject from "./components/conditionalRendering/DrinkListWithObject"
 
 function App() {
 
@@ -27,8 +30,10 @@ function App() {
       {/* < ReduceDuplication /> */}
       {/* < ReduceDuplication2 /> */}
       {/* < AdjustImages /> */}
-
-      < PackingList2 />
+      {/* < PackingList2 /> */}
+      {/* < DrinkList /> */}
+      {/* < DrinkListWithIf /> */}
+      < DrinkListWithObject />
     </>
   )
 }
