@@ -12,14 +12,18 @@
 // import PackingList2 from "./components/conditionalRendering/PackingList2"
 // import DrinkListWithIf from "./components/conditionalRendering/DrinkListWithIf"
 // import DrinkList from "./components/conditionalRendering/DrinkList"
+// import PeopleListItem from "./components/renderingList/ListItems"
+// import DrinkListWithObject from "./components/conditionalRendering/DrinkListWithObject"
+// import FilterPeople from "./components/renderingList/FilterPeople"
+// import FilterWithTwoList from "./components/renderingList/FilterWithTwoList"
 
-import DrinkListWithObject from "./components/conditionalRendering/DrinkListWithObject"
+import FilterWithTwoList2 from "./components/renderingList/FilterWithTwoList2"
 
 function App() {
 
   return (
     <>
-      <h2>Gallery Of Flowers</h2>
+      <h2>Gallery Of All</h2>
       {/* < Profile />
       < Profile />
       < Profile /> */}
@@ -33,7 +37,10 @@ function App() {
       {/* < PackingList2 /> */}
       {/* < DrinkList /> */}
       {/* < DrinkListWithIf /> */}
-      < DrinkListWithObject />
+      {/* < DrinkListWithObject /> */}
+      {/* <PeopleListItem /> */}
+      {/* < FilterPeople /> */}
+      < FilterWithTwoList2 />
     </>
   )
 }
