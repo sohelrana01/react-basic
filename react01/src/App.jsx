@@ -16,8 +16,12 @@
 // import DrinkListWithObject from "./components/conditionalRendering/DrinkListWithObject"
 // import FilterPeople from "./components/renderingList/FilterPeople"
 // import FilterWithTwoList from "./components/renderingList/FilterWithTwoList"
+// import PureComponent from "./components/pureComponents/PureComponent"
+// import FilterWithTwoList2 from "./components/renderingList/FilterWithTwoList2"
 
-import FilterWithTwoList2 from "./components/renderingList/FilterWithTwoList2"
+// import BrokenClock from "./components/pureComponents/BrokenClock"
+
+import SideEffects from "./components/pureComponents/SideEffects"
 
 function App() {
 
@@ -40,7 +44,10 @@ function App() {
       {/* < DrinkListWithObject /> */}
       {/* <PeopleListItem /> */}
       {/* < FilterPeople /> */}
-      < FilterWithTwoList2 />
+      {/* < FilterWithTwoList2 /> */}
+      {/* < PureComponent /> */}
+      <SideEffects />
+      {/* <BrokenClock /> */}
     </>
   )
 }
