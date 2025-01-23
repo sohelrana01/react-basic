@@ -20,14 +20,15 @@
 // import FilterWithTwoList2 from "./components/renderingList/FilterWithTwoList2"
 // import BrokenClock from "./components/pureComponents/BrokenClock"
 // import SideEffects from "./components/pureComponents/SideEffects"
-
-import InspirationGenerator from "./components/uiTree/InspirationGenerator"
+// import InspirationGenerator from "./components/uiTree/InspirationGenerator"
+// import SelectForm from "./components/selectComponent/SelectForm"
+// import SelectCom from "./components/selectComponent/SelectCom"
 
 function App() {
 
   return (
     <>
-      <h2>Gallery Of All</h2>
+      <h2>React JS Exercise...</h2>
       {/* < Profile />
       < Profile />
       < Profile /> */}
@@ -48,9 +49,9 @@ function App() {
       {/* < PureComponent /> */}
       {/* <SideEffects /> */}
       {/* <BrokenClock /> */}
-
-        <InspirationGenerator />
-
+      {/* <InspirationGenerator /> */}
+      {/* < SelectCom /> */}
+      {/* < SelectForm /> */}
     </>
   )
 }
