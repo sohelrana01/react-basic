@@ -18,10 +18,10 @@
 // import FilterWithTwoList from "./components/renderingList/FilterWithTwoList"
 // import PureComponent from "./components/pureComponents/PureComponent"
 // import FilterWithTwoList2 from "./components/renderingList/FilterWithTwoList2"
-
 // import BrokenClock from "./components/pureComponents/BrokenClock"
+// import SideEffects from "./components/pureComponents/SideEffects"
 
-import SideEffects from "./components/pureComponents/SideEffects"
+import InspirationGenerator from "./components/uiTree/InspirationGenerator"
 
 function App() {
 
@@ -46,8 +46,11 @@ function App() {
       {/* < FilterPeople /> */}
       {/* < FilterWithTwoList2 /> */}
       {/* < PureComponent /> */}
-      <SideEffects />
+      {/* <SideEffects /> */}
       {/* <BrokenClock /> */}
+
+        <InspirationGenerator />
+
     </>
   )
 }
