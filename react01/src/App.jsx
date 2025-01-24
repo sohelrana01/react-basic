@@ -23,6 +23,9 @@
 // import InspirationGenerator from "./components/uiTree/InspirationGenerator"
 // import SelectForm from "./components/selectComponent/SelectForm"
 // import SelectCom from "./components/selectComponent/SelectCom"
+// import SelectFormSubmit from "./components/selectComponent/SelectFormSubmit"
+
+import SelectWithuseState from "./components/selectComponent/SelectWithuseState"
 
 function App() {
 
@@ -52,6 +55,8 @@ function App() {
       {/* <InspirationGenerator /> */}
       {/* < SelectCom /> */}
       {/* < SelectForm /> */}
+      {/* <SelectFormSubmit /> */}
+      < SelectWithuseState />
     </>
   )
 }

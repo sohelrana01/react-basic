@@ -4,11 +4,11 @@
     <option value="othervalue">Other Option</option>
 </select> */}
 
-export default function SelectCom(){
+export default function SelectCom() {
     return (
         <label>
-            Pick a fruits: 
-            <select name="selectedFruit" defaultValue="orange">
+            Pick a fruits:
+            <select name="selectedFruit" defaultValue={["orange", "banana"]} multiple={true}>
                 <option value="apple">Apple</option>
                 <option value="orange">Orange</option>
                 <option value="banana">banana</option>
