@@ -13,12 +13,13 @@
 // import Counter from "./components/useState/Counter"
 // import MyCheckbox from "./components/useState/MyCheckbox"
 // import Textfield from "./components/useState/Textfield"
-
-import TaskApp from "./components/useStatetodosApp/TaskApp"
-
+// import PassingInitializer from "./components/useState/PassingInitializer"
+// import TaskApp from "./components/useStatetodosApp/TaskApp"
 // import FormNestedObject from "./components/useState/FormNestedObject"
-
 // import FromObject from "./components/useState/FromObject"
+
+import StateIncDec from "./components/useState/StateIncDec"
+// import StateResetBtn from "./components/useState/StateResetBtn"
 
 function App() {
 
@@ -44,7 +45,10 @@ function App() {
       {/* < PassingUpdater /> */}
       {/* < FromObject /> */}
       {/* < FormNestedObject /> */}
-      < TaskApp />
+      {/* < TaskApp /> */}
+      {/* < PassingInitializer /> */}
+      {/* < StateResetBtn /> */}
+      < StateIncDec />
 
     </>
   )
