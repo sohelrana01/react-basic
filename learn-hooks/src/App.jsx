@@ -17,9 +17,10 @@
 // import TaskApp from "./components/useStatetodosApp/TaskApp"
 // import FormNestedObject from "./components/useState/FormNestedObject"
 // import FromObject from "./components/useState/FromObject"
-
-import StateIncDec from "./components/useState/StateIncDec"
+// import StateIncDec from "./components/useState/StateIncDec"
 // import StateResetBtn from "./components/useState/StateResetBtn"
+
+import ConnectChatServer from "./useEffect/ConnectChatServer"
 
 function App() {
 
@@ -48,7 +49,8 @@ function App() {
       {/* < TaskApp /> */}
       {/* < PassingInitializer /> */}
       {/* < StateResetBtn /> */}
-      < StateIncDec />
+      {/* < StateIncDec /> */}
+      < ConnectChatServer />
 
     </>
   )
